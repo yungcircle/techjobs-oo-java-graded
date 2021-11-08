@@ -86,7 +86,7 @@ public class TestTaskTwo extends AbstractTest {
             coreCompetencyClass.getMethod("setId", int.class);
             fail("CoreCompetency should not have a setId method");
         } catch (NoSuchMethodException e) {
-            String asdf = "";
+            String adf = "";
         }
     }
 
